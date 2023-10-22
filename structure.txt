@@ -1,0 +1,127 @@
+.
+├── 6th-place-solution.md
+├── bash
+│   ├── get_extra_embedding.sh
+│   ├── prepare_data_dicom.sh
+│   ├── prepare_dataframe.sh
+│   ├── seg_output.sh
+│   ├── seg_save_cache.sh
+│   ├── seg.sh
+│   ├── train_extra_cls.sh
+│   ├── train_extra_seg_cls.sh
+│   ├── train_extra_seg_seq.sh
+│   ├── train_extra_seq.sh
+│   └── train_organ_bowel.sh
+├── data
+│   ├── active_extravasation_bounding_boxes.csv
+│   ├── dataset
+│   │   ├── image_level_labels.csv
+│   │   ├── sample_submission.csv
+│   │   ├── segmentations
+│   │   ├── test_dicom_tags.parquet
+│   │   ├── test_images
+│   │   ├── test_series_meta.csv
+│   │   ├── train.csv
+│   │   ├── train_dicom_tags.parquet
+│   │   ├── train_images
+│   │   └── train_series_meta.csv
+│   ├── dcm_number.csv
+│   ├── df_seg.csv
+│   ├── d.pkl
+│   ├── extra_mask
+│   ├── extra_sliding_5_bbox.csv
+│   ├── extra_sliding_5_bbox_pos.csv
+│   ├── feature_extracted
+│   │   └── sliding_5
+│   ├── inverse.csv
+│   ├── png_folder
+│   ├── seg_df.csv
+│   ├── segmentations
+│   │   └── s_128
+│   ├── segmented
+│   │   ├── bowel
+│   │   ├── bowel_slices
+│   │   ├── left_kidney
+│   │   ├── liver
+│   │   ├── right_kidney
+│   │   └── spleen
+│   └── train_df.csv
+├── directory_structure.txt
+├── notebooks
+│   ├── check_cv
+│   │   ├── check_cv.ipynb
+│   │   └── prepare_cv.ipynb
+│   ├── conv3d_same.py
+│   ├── EDA
+│   │   ├── check_segmented.ipynb
+│   │   ├── eda_general.ipynb
+│   │   ├── eda_zaxis.ipynb
+│   │   ├── organ_crop_visualization.ipynb
+│   │   ├── seg_check_result.ipynb
+│   │   └── segmentation_visualization.ipynb
+│   ├── get-started-quicker-dicom-png-conversion.ipynb
+│   ├── make_dataframe
+│   │   ├── dcm_number.ipynb
+│   │   ├── df_seg.ipynb
+│   │   ├── extra_bbox.ipynb
+│   │   ├── generate_png_files_dict.ipynb
+│   │   ├── inverse.ipynb
+│   │   └── train_df.ipynb
+│   └── rsna-inference.ipynb
+├── readme.ipynb
+├── README.md
+├── README_reference.md
+├── results
+│   ├── segmentations
+│   │   └── test
+│   ├── stage2-bowel-type1
+│   │   ├── bowel
+│   │   ├── effv2s
+│   │   └── seresnext50_32x4d
+│   ├── stage2-extra-type1-seg
+│   │   ├── extra-feat-sliding-seg
+│   │   └── extra-feat-sliding-seg-seq
+│   └── stage2-organ-type1
+│       ├── effv2s
+│       ├── organ
+│       └── seresnext50_32x4d
+├── RSNA-Summary.jpg
+├── src
+│   ├── conv3d_same.py
+│   ├── make_dataframe
+│   │   ├── conv3d_same.py
+│   │   ├── dcm_number.py
+│   │   ├── df_seg.py
+│   │   ├── dicom-png-conversion.ipynb
+│   │   ├── dicom-png-conversion.py
+│   │   ├── extra_bbox.py
+│   │   ├── generate_png_files_dict.py
+│   │   ├── inverse.py
+│   │   └── train_df.py
+│   ├── __pycache__
+│   │   └── conv3d_same.cpython-39.pyc
+│   ├── segmentation.py
+│   ├── segment_output.py
+│   ├── stage2-bowel-type1.py
+│   ├── stage2-extra-type1-classifier-type2-mask-effnet.py
+│   ├── stage2-extra-type1-classifier-type2-mask.py
+│   ├── stage2-extra-type1-classifier-type2.py
+│   ├── stage2-extra-type1-sequence-type2-mask.py
+│   ├── stage2-extra-type1-sequence-type2.py
+│   └── stage2-organ-type1.py
+├── structure.sh
+├── structure.txt
+└── visualization
+    ├── bowel_data_check.png
+    ├── extra_data_check.png
+    ├── organ_data_check.png
+    ├── segmentation_3d_sample_liver.png
+    ├── segmented_organ.png
+    ├── segmented.png
+    ├── segment_zaxis.png
+    ├── slice_xyz_view.png
+    ├── x_axis_view.png
+    ├── y_axis_view.png
+    └── z_axis_view.png
+
+42 directories, 83 files
