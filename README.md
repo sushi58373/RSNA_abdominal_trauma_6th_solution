@@ -93,7 +93,7 @@ data
 #### 1. Train 3D segmentation model
 1. `source seg_save_cache.sh` : save transformed images and masks to train segmentation model to save time  
 2. `source seg.sh` : to train segmentation model
-3. `seg_output.sh` : save segment and crop images to train organ and bowel model  
+3. `source seg_output.sh` : save segment and crop images to train organ and bowel model  
     * segmentation model folder  
         ```
         ├── results
