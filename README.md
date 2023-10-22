@@ -54,7 +54,7 @@ This repository contains code to reproduce the 6th place solution, achieving pri
     
     * run bash file to make custom dataframe to run code (below)
     * (recommend) download [custom bbox dataframe](https://www.kaggle.com/datasets/vaillant/rsna-abdominal-trauma-extravasation-bounding-boxes) made by [Ian Pan](https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection/discussion/441402) for train the extravasation model with better performance
-    * download premade dataframe and folder structure <[link](https://www.kaggle.com/datasets/madquer/rsna-abdominal-dataset-structure/data)> to save time 
+    * (recommend) download premade dataframe and folder structure <[link](https://www.kaggle.com/datasets/madquer/rsna-abdominal-dataset-structure/data)> to save time 
 
 * (recommend) Download the trained model  
     * [Single Model](https://www.kaggle.com/datasets/madquer/rsna-models) (recommend for testing quickly)
