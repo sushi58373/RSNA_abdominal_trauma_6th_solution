@@ -23,7 +23,7 @@ OS/platform : `Ubuntu 20.04`
 ## Solution Summary
 This repository contains code to reproduce the 6th place solution, achieving private LB 0.40.
 
-
+![](RSNA-Summary.jpg)
 
 
 ---
