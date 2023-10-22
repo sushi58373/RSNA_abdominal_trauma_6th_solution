@@ -35,7 +35,7 @@ torch.backends.cudnn.benchmark = True
 
 seed = 42
 
-DEBUG = True
+DEBUG = False
 
 # Config
 kernel_type = 'bowel'

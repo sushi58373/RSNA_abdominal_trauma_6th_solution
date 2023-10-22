@@ -1,4 +1,4 @@
-MODEL=1 # 0:seresnext50_32x4d, 1:efficientnetv2s
+MODEL=0 # 0:seresnext50_32x4d, 1:efficientnetv2s
 
 cd ../src
 

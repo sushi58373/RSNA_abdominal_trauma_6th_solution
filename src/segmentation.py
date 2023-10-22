@@ -49,7 +49,7 @@ from typing import Any, Dict, Optional
 import argparse
 
 
-DEBUG = True
+DEBUG = False
 
 # Config
 kernel_type = 'test'
