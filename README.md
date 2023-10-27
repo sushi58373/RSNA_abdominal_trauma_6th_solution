@@ -218,7 +218,7 @@ Scores:
 
 
 ## Demo
-![Demo Notebook](https://www.kaggle.com/code/madquer/rsna-inference-6th-solution-clean-version/notebook)
+[Demo Notebook](https://www.kaggle.com/code/madquer/rsna-inference-6th-solution-clean-version/notebook)
 
 ## Code Structure
 ```
